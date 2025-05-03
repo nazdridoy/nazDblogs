@@ -283,7 +283,7 @@ Ready to supercharge your own workflow? Give nGPT a try! You can find it on [Git
 For more details, guides, and advanced usage, check out the official documentation:
 
 - [nGPT Documentation](https://nazdridoy.github.io/ngpt/)
-- [GitHub Repository](https://github.com/NazdridoyDev/ngpt)
+- [GitHub Repository](https://github.com/nazdridoy/ngpt)
 
 #### Installation
 
