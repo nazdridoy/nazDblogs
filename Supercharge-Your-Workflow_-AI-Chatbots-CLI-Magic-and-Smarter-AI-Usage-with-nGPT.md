@@ -2,8 +2,7 @@
 title: Supercharge Your Workflow: AI Chatbots, CLI Magic, and Smarter AI Usage with nGPT
 published: false
 description: Discover how to use AI effectively in your daily workflow with nGPT, a powerful CLI tool that brings AI capabilities to your terminal.
-tags: ai, productivity, cli, devops
-cover_image: https://raw.githubusercontent.com/nazdridoy/ngpt/main/previews/ngpt-w-self.png
+tags: ai, productivity, cli, tools
 ---
 
 ## Supercharge Your Workflow: AI Chatbots, CLI Magic, and Smarter AI Usage with nGPT
@@ -193,25 +192,25 @@ Let's look at how nGPT can fit into your everyday workflow with some practical e
 
 As a developer, I use nGPT throughout my day:
 
-1. **Morning code review**:
+**Morning code review**:
    ```bash
    # Get explanations of complex code
    git show | ngpt -p "Explain what this code change does and any potential issues: {}"
    ```
 
-2. **Debugging help**:
+**Debugging help**:
    ```bash
    # Help understand a cryptic error message
    npm run build 2>&1 | grep Error | ngpt -p "What does this error mean and how can I fix it: {}"
    ```
 
-3. **Documentation generation**:
+**Documentation generation**:
    ```bash
    # Generate JSDoc comments for functions
    cat src/utils.js | ngpt -p "Write proper JSDoc comments for these functions: {}"
    ```
 
-4. **Commit messages**:
+**Commit messages**:
    ```bash
    # After finishing a feature
    git add .
@@ -222,17 +221,17 @@ As a developer, I use nGPT throughout my day:
 
 For content creators and writers:
 
-1. **Overcoming writer's block**:
+**Overcoming writer's block**:
    ```bash
    ngpt "Give me 5 different angles to approach an article about sustainable technology"
    ```
 
-2. **Editing assistance**:
+**Editing assistance**:
    ```bash
    cat draft.md | ngpt -r
    ```
 
-3. **Research summaries**:
+**Research summaries**:
    ```bash
    curl -s https://example.com/research-paper.html | ngpt -p "Summarize the key findings from this research: {}"
    ```
@@ -241,17 +240,17 @@ For content creators and writers:
 
 For sysadmins and DevOps folks:
 
-1. **Generating complex commands**:
+**Generating complex commands**:
    ```bash
    ngpt -s "find all log files larger than 100MB that haven't been modified in the last 30 days"
    ```
 
-2. **Creating configuration files**:
+*Creating configuration files**:
    ```bash
    ngpt --code "Create a Docker Compose file for a Redis, PostgreSQL, and Node.js application"
    ```
 
-3. **Troubleshooting systems**:
+**Troubleshooting systems**:
    ```bash
    dmesg | tail -50 | ngpt -p "Explain what might be causing the issues based on these system logs: {}"
    ```
